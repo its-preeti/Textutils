@@ -15,8 +15,8 @@ function ForgotPassword() {
 
       alert(res.data.message);
 
-      // 🔥 after reset request
-      navigate("/"); // login page
+      
+      navigate("/"); 
     } catch (error) {
       console.log(error);
       alert("Error in resetting password");

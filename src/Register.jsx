@@ -19,10 +19,7 @@ function Register() {
         password,
       });
 
-      alert(res.data.message);
-
-      // 🔥 redirect after register
-      navigate("/"); // login page
+      alert(res.data.message); navigate("/"); 
     } catch (error) {
       console.log(error);
       alert("Registration Failed");
